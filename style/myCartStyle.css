@@ -1,0 +1,180 @@
+@charset "utf-8";
+/*我的购物车页面Style表*/
+*{margin:0;padding:0;}
+body {
+	padding:0;
+	margin:0;
+	width:1208px;
+	margin:0 auto;
+	position:relative;
+	left:-8px;   /*解决没有滚动条的页面与有滚动条的页面之间切换时的抖动问题*/
+	/*border:1px red solid;*/
+	}
+	
+/*定义鼠标的样式*/
+a{
+	color:white;
+	text-decoration:none;
+	cursor:pointer;
+	}
+a:hover {
+	color:red;
+	}
+
+	
+
+/*我的购物车部分*/
+#my_cart {
+	width:1208px;
+	position:absolute;
+	top:180px;
+	}
+#div1 {
+	width:1208px;
+	height:60px;
+	font-size:30px;
+	line-height:60px;
+	color:#DD4250;
+	border-bottom:3px solid #DD4250;
+	font-weight:bold;
+	}
+#div2 {
+	width:1208px;
+	height:60px;
+	line-height:60px;
+	}
+#pro_list {
+	width:900px;
+	border:1px solid gray;
+	border-collapse:collapse;
+	}
+td {
+	border:1px solid gray;
+	text-align:center;
+	height:40px;
+	}
+.remove {
+	width:32px;
+	height:32px;
+	color:white;
+	font-size:12px;
+	text-align:center;
+	line-height:32px;
+	position:relative;
+	border:3px solid #DD4250;
+	background-color:#DD4250;
+	border-radius:50%;
+	display:inline-block;
+	z-index:10;
+	}
+.remove:hover {
+	background-color:#FF0080;
+	cursor:pointer;
+	animation:move 3s ease infinite;
+	-moz-animation:move 3s ease infinite;
+	-o-animation:move 3s ease infinite;
+	-webkit-animation:move 3s ease infinite;}
+@keyframes move {
+	0 {
+		border-color:#C36;
+		}
+	25% {
+		border-color:#C93;
+		}
+	50% {
+	    border-color:#939;
+		}
+	75% {
+		 border-color:#990;
+		;}
+	100% {
+		 border-color:#969;
+		}
+	}
+@-webkit-keyframes move {
+	0 {
+		border-color:#C36;
+		}
+	25% {
+		border-color:#C93;
+		}
+	50% {
+	    border-color:#939;
+		}
+	75% {
+		 border-color:#990;
+		;}
+	100% {
+		 border-color:#969;
+		}
+	}
+@-moz-keyframes move {
+	0 {
+		border-color:#C36;
+		}
+	25% {
+		border-color:#C93;
+		}
+	50% {
+	    border-color:#939;
+		}
+	75% {
+		 border-color:#990;
+		;}
+	100% {
+		 border-color:#969;
+		}
+	}
+@-o-keyframes move {
+	0 {
+		border-color:#C36;
+		}
+	25% {
+		border-color:#C93;
+		}
+	50% {
+	    border-color:#939;
+		}
+	75% {
+		 border-color:#990;
+		;}
+	100% {
+		 border-color:#969;
+		}
+	}
+thead th {
+	height:30px;
+	border:1px solid gray;
+	}
+#clear {
+	width:100px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background-color:#707070;
+	font-family:微软雅黑;
+	color:white;
+	font-size:14px;
+	border-radius:3px 3px 3px 3px;
+	display:inline-block;
+	margin-left:30px;
+	float:right;
+	}
+#purchase {
+	width:100px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background-color:#DD4250;
+	font-family:微软雅黑;
+	color:white;
+	font-size:14px;
+	border-radius:3px 3px 3px 3px;
+	display:inline-block;
+	margin-left:30px;
+	float:right;
+	margin-right:30px;
+	}
+#clear:hover { font-size:15px;}
+#purchase:hover { font-size:15px;}
+

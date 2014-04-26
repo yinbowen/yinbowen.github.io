@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* login style */
+body {
+	background-color:#D6F2FE;
+	}
+#login {
+	width:480px;
+	height:220px;
+	background-color:pink;
+	border:0px black solid;
+	border-radius:10px 10px 10px 10px;
+	margin:189px auto;
+	box-shadow:8px 8px 8px #9CC;
+	}
+#top {
+	width:480px;
+	height:50px;
+	border:0px black solid;
+	border-radius:10px 10px 0 0;
+	background-color:#3E4651;
+	color:white;
+	text-align:center;
+	line-height:50px;
+	font-size:24px;
+	font-family:微软雅黑;
+	}
+#middle {
+	width:480px;
+	height:120px;
+	background-color:#BDBDBD;
+	color:#333;
+	font-size:24px;
+	font-family:黑体;
+	padding:0;
+	}
+#bottom {
+	width:480px;
+	height:50px;
+	border:0px black solid;
+	border-radius:0px 0px 10px 10px;
+	background-color:#3E4651;
+	}
+.username {
+	padding:5px;
+	font-size:14px;
+	width:310px;
+	height:30px;
+	background-color:white;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	position:absolute;
+	top:0px;
+	border:0 black solid;
+	border-radius:5px 5px 5px 5px;}
+.pass {
+	padding:5px;
+	font-size:14px;
+	width:310px;
+	height:30px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	background-color:#F9FFBC;
+	position:absolute;
+	top:0px;
+	border:0 black solid;
+	border-radius:5px 5px 5px 5px;}
+.div1,.div2 {
+	width:395px;
+	height:30px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	line-height:30px;
+	margin-left:45px;
+	padding:0;
+	}
+.div1 {
+	position:absolute;
+	top:260px;}
+.div2 {
+	position:absolute;
+	top:310px;}
+.sub {
+	
+	width:85px;
+	height:30px;
+	position:absolute;
+	top:370px;
+	margin-left:350px;
+	background-color:#000;
+	color:white;
+	font-size:16px;
+	font-weight:bold;
+	border:2px #966 groove;
+	border-radius:5px 5px 5px 5px;
+	}
+.sub:hover {
+	background-color:#C9F;}

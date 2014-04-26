@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* Go Top */
+#goTop {
+	    position:fixed;
+		bottom:55px;
+		right:1px;
+		width:25px;
+		height:25px;
+		border-radius:3px 3px 3px 3px;
+		}
+
+#goTop img {
+	width:25px;
+	height:25px;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	opacity:0.5;
+	-webkit-transition:opacity 1s ease;
+	-ms-transition:opacity 1s ease;	
+	-moz--transition:opacity 0.7s ease;	
+	-o--transition:opacity 1s ease;
+	}
+#goTop img:hover {
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	opacity:1;
+	}

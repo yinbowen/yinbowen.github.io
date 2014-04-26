@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* 支付页面 CSS Document */
+*{margin:0;padding:0;}
+body {
+	padding:0;
+	margin:0;
+	width:1208px;
+	margin:0 auto;
+	position:relative;
+	left:-8px;
+	/*border:1px red solid;*/
+	}
+	
+/*定义鼠标的样式*/
+a{
+	color:white;
+	text-decoration:none;
+	cursor:pointer;
+	}
+a:hover {
+	color:red;
+	}
+
+	
+/*支付成功提示部分*/
+
+#div1 {
+	width:1208px;
+	height:100px;
+	position:absolute;
+	top:180px;
+	font-size:40px;
+	text-align:center;
+	line-height:100px;
+	color:#008000;
+	}
+#div1 img {
+	position:absolute;
+	top:0;
+	left:449px;}
+#pur_text {
+	width:250px;
+	height:100px;
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	left:550px;
+	font-weight:bold;
+	}
+#div2 {
+	width:1208px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	position:absolute;
+	top:300px;
+	font-family:微软雅黑;
+	}
+#div3 {
+	width:1208px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	position:absolute;
+	top:350px;
+	font-family:微软雅黑;
+	}
+#div4 {
+	width:1208px;
+	height:30px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	line-height:30px;
+	padding-left:950px;
+	position:absolute;
+	top:400px;
+	font-family:微软雅黑;
+	}
+#div4 a {
+	color:gray;
+	}
+#div4 a:hover {
+	color:black;
+	text-decoration:underline;
+	}
